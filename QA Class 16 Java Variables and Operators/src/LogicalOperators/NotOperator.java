@@ -8,16 +8,19 @@ public class NotOperator {
 		boolean h=true;
 		boolean m=false;
 		
-		System.out.println(h&& m);//false
-		System.out.println(!(h&&m));// not false
-		System.out.println(h||m);  //true
+	//	System.out.println(h&m);//false
+		//System.out.println(!(h&m));// !(false) =  true
+	//	System.out.println(h|m);  //true
 		
 		
-		int a=10;
+		int a=20;
 		
 		
-		if(!(a==20))
+		if(!(a==20))   //  not true-> false
        System.out.println("a is equal to 20");
+		else
+			
+			System.out.println(" condition didnt match");
 	}
 
 }

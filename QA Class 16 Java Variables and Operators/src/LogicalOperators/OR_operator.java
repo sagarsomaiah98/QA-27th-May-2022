@@ -6,12 +6,14 @@ public class OR_operator {
 		// TODO Auto-generated method stub
 		
 		
-		int j=6;
+		int j=-7;
 		
-		if(j>10 || j%2==0)
+		if(j>10 ||  j%2==0)// false || false-> false
 			
 			System.out.println(j+ " is even number or greater than 0");
 			
+		else
+			System.out.println("condition didnt match");
 			
 
 	}
