@@ -4,12 +4,14 @@ public class Switch_example1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char grade='C';
+		char grade='A';
 	
 				switch(grade)
 				{
 				case 'A':
 					System.out.println("Excellent");
+					System.out.println("good job");
+					System.out.println("excellent work");
 					break;
 				case 'B':
 					System.out.println("Well Done");
