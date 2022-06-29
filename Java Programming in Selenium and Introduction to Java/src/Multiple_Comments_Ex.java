@@ -7,10 +7,12 @@ public class Multiple_Comments_Ex {
 		
 		
 		
+		
+		
 		  System.out.println("Welcome"); System.out.print("Selenium");
 		  System.out.println("Janbask");
 		 
-		
+		  
 		  System.out.print("QA Training"); System.out.println("Automation");
 		  System.out.print("Testing"); System.out.println("Hello Janbask");
 		  
@@ -22,6 +24,7 @@ public class Multiple_Comments_Ex {
 		  System.out.println("Janbask"); System.out.print("QA Training");
 		  System.out.println("Automation"); System.out.print("Testing");
 		  System.out.println("Hello Janbask");
+		 
 		 
 		
 		System.out.println("Welcome to QA training");
