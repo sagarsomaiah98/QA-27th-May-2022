@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="Methods.Method_1"/>
+    <fullyQualifiedTypeName name="Methods.Method_2"/>
+    <fullyQualifiedTypeName name="Methods.Parameters_Ex2"/>
+    <fullyQualifiedTypeName name="Methods.Sample_Method"/>
+    <fullyQualifiedTypeName name="Static_Keyword.Multiplication"/>
 </qualifiedTypeNameHistroy>
