@@ -1,6 +1,6 @@
 package com.janbask.inheritanceExample;
 
-public class Parent  {
+public class A  {
 	
 	public int money=9000;
 	public String Lastname="Henry";
@@ -17,7 +17,7 @@ public class Parent  {
 
 	public static void main(String[] args) {
 		
-		Parent p=new Parent();
+		A p=new A();
 		
 		System.out.println(p.money);
 		System.out.println(p.Lastname);
@@ -25,9 +25,10 @@ public class Parent  {
 		p.house();
 		
 		//Parent cannot inherit the child properties
-	//	p.car();
-	//	p.Factory();
 		
+	//	  p.car(); 
+	//	  p.Factory();
+		 		
 
 	}
 

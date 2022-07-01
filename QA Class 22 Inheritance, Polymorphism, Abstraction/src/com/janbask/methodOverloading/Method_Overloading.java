@@ -16,7 +16,7 @@ public class Method_Overloading {
 	
 	public void add(int a, int b,int c, int d) {
 		int res=a+b+c+d;
-		System.out.println("Addition of three numbers is "+res);
+		System.out.println("Addition of four numbers is "+res);
 		
 	}
 	
@@ -25,9 +25,15 @@ public class Method_Overloading {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Method_Overloading m= new Method_Overloading();
-		m.add(20, 30);
-		m.add(5, 9, 8);
-		m.add(10,30,14,51);
+		m.add(5, 9, 8);//22
+		m.add(20, 30);//50
+		
+		m.add(10,30,14,51);//105
+		m.add(15, 10);//25
+		m.add(8, 10,11,12);//41
+		
+		
+		
 		
 
 	}
