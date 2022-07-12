@@ -26,7 +26,7 @@ public class WinHandling {
 		Iterator<String> it =windows.iterator();
 		System.out.println(windows.size());
 		
-	String parent=it.next();
+	 String parent=it.next();
       String child=it.next();
       
       driver.switchTo().window(child);
@@ -37,8 +37,9 @@ public class WinHandling {
 		windows= driver.getWindowHandles();
 		it =windows.iterator();
 		System.out.println(windows.size());
+		Thread.sleep(2000);
 		
-		
+		driver.quit();
 		
 		
 		

@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
@@ -23,10 +24,15 @@ System.setProperty("webdriver.chrome.driver", "S:\\JANBASK\\QA-27th May 2022\\DR
 		
 		Actions action = new Actions(driver);
 		
-		action.moveToElement(driver.findElement(By.xpath("//a[@class='no_border'][normalize-space()='Free Ebooks']"))).build().perform();
+		WebElement menu=driver.findElement(By.xpath("//a[@class='no_border'][normalize-space()='Free Ebooks']"));
+		WebElement submenu=driver.findElement(By.xpath("//span[normalize-space()='Free Deep Learning eBooks']"));
+		
+		action.moveToElement(menu).build().perform();
 		
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//span[normalize-space()='Free Deep Learning eBooks']")).click();
+		
+		submenu.click();
+		
 		
 		
 	}
